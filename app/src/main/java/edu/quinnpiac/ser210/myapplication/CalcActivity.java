@@ -48,7 +48,7 @@ public class CalcActivity extends AppCompatActivity {
                 add.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-
+                        //call performop
                         performOp('+');
                     }
                 });
